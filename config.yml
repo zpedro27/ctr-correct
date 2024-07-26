@@ -1,0 +1,28 @@
+general_plotting:
+    context: notebook
+    style: white
+    palette: Paired
+    font: sans-serif
+    font_scale: 1.4
+    color_codes: False
+    rc:
+        figure.frameon: True
+        axes.grid: False
+        axes.spines.top: True
+        axes.spines.right: True
+        axes.labelsize: 25
+        xtick.top: True
+        xtick.bottom: True
+        ytick.left: True
+        ytick.right: True
+        xtick.direction: in
+        ytick.direction: in
+        font.weight: normal 
+        savefig.dpi: 300
+        savefig.transparent: False
+
+settings_scatterplots:
+    marker: o
+    s: 130
+    edgecolor: black
+    alpha: 0.7
